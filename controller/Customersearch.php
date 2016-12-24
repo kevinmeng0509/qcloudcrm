@@ -47,6 +47,7 @@ class CustomersearchController extends \Tuanduimao\Loader\Controller {
 		echo json_encode($hello->select("",["COUNT(*)"]));
 	}
 	function test(){
-		phpinfo();
+		//phpinfo();
+		echo "Hello World!";
 	}
 }
